@@ -1,0 +1,135 @@
+/*Partie Login */
+*{
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: seagreen;
+    color: white;
+    background: url('Images/background_valo.png');
+    background-size: cover;
+    background-position: center;
+}
+.mainBox{
+    background-color:purple;
+    width: 420px;
+    border-radius: 10px;
+    padding:30px 40px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+}
+.mainBox .box1{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+    position: relative;
+}
+.box1 input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255,255,.2);
+    border-radius: 40px;
+    font-size: 17px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+.box1 input::placeholder{
+    color: white;
+}
+.mainBox .box1 #image_icon{
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 15px;
+}
+.mainBox .forgot_password{
+    display: flex;
+    justify-content: space-between;
+    margin :-15px 0 15px;
+}
+.mainBox .forgot_password label input{
+    accent-color: white;
+    margin-right: 5px;
+}
+.forgot_password a{
+    text-decoration: none;
+    color: white;
+}
+.forgot_password a:hover{
+    text-decoration: underline;
+}
+.Login_button #button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.mainBox .account{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14.5px;
+}
+.account a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.mainBox .account a:hover{
+    text-decoration: underline;
+}
+
+/*Partie Sign up */
+
+.mainBox2{
+    width: 550px;
+    border-radius: 10px;
+    padding:30px 40px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+.mainBox2 .Name1{
+    width: 100%;
+    height: 50px;
+}
+#name{
+    width: 230px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255,255,.2);
+    border-radius: 40px;
+    font-size: 17px;
+    color: white;
+    padding: 20px 35px 20px 40px;
+}
+.mainBox2 input::placeholder{
+    color: white;
+}
+.account{
+    text-align: center;
+}
+.account a:hover{
+    text-decoration: underline;
+}
+

@@ -1,0 +1,203 @@
+/* Partie Main Page */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    font-family: "poppins", sans-serif;
+}
+body{
+    height: 2800px;       
+   }
+.nav-bar{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(7, 7, 7, 0.91);
+}
+.nav-bar .a1{
+    text-decoration: none;
+    color: #fe4650;
+    margin-left: -15px;
+}
+li a {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+.nav-links{
+    text-decoration:none ;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0 50px;
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color: #fe4650;
+}
+.Main .text1{
+    color: white;
+    margin-left: 880px;
+    margin-top: -400px;
+}
+.text1 h2 {
+    color: #fe4650;
+}
+.Second{
+    width: 100%;
+    height: 963px;
+    background-color: #ece8e1; 
+}
+.Second img{
+    float: right;
+    margin-top: 200px;
+}
+.Second .description{
+    position:absolute;
+    margin-top:220px ;
+    margin-left: 80px;
+}
+.description h1{
+    font-size: 100px;
+    color: #fe4650;
+}
+.description h2{
+    font-size: 25px;
+}
+.description p{
+    font-size: 20px;
+}
+.description #button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    background-color: #fe4650;
+}
+.Third{
+    width: 100%;
+    height: 753px;
+    background-color: #0f1923;
+}
+.Third img{
+    padding-top: 22px;
+    padding-left: 22px;
+    border-radius: 50%;
+}
+.Third .image3{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -300px;
+    border-radius: 50%;
+}
+.Third #text2{
+    position: absolute;
+    margin-left: 580px;
+    margin-top: -190px;
+    color: #fe4650 ;
+}
+.Third .description2{
+    position:absolute;
+    margin-top:-720px ;
+    margin-left: 900px;
+}
+.description2 h1{
+    font-size: 100px;
+    color: white;
+}
+.description2 h2{
+    font-size: 25px;
+    color: #fe4650 ;
+}
+.description2 p{
+    font-size: 20px;
+    color: white;
+}
+.description2 #button{
+    width: 80%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    background-color: #fe4650;
+}
+.Fourth {
+    background-color:  rgba(7, 7, 7, 0.91);
+    width: 100%;
+    height: 123px;
+}
+.Fourth #a1{
+    text-decoration: none;
+    color: white;
+    margin-left: 500px;
+    margin-top: 50px;
+    position: absolute;
+}
+.Fourth #a1:hover{
+    text-decoration: underline;
+}
+.Fourth #a2:hover{
+    text-decoration: underline;
+}
+.Fourth #a2{
+    text-decoration: none;
+    color: white;
+    margin-left: 770px;
+    margin-top: 50px;
+    position: absolute;
+}
+.Fourth .liens {
+    text-align: center;
+}
+.Fifth {
+    background-color:  #ece8e1;
+    width: 100%;
+    height: 423px;
+}
+.Fifth .photos1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 662px;
+}
+.Fifth .photos2{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 655px;
+}
+.Fifth #paragraph1{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 400px;
+}
+.Fifth #paragraph2{
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 550px;
+}
+.end{
+    position: absolute;
+    width: 398px;
+    height: 102px;
+
+    margin-top: -140px;
+    margin-left: 540px;
+}

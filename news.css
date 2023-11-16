@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #eaeaea;
+    background-color: #ece8e1;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+#Retouche{
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    margin-top: -11px;
+    background-color: white;
+}
+.nav-bar{
+    margin-top: 8px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(36, 31, 31);
+}
+
+.nav-bar .a1{
+    text-decoration: none;
+    color: #fe4650;
+    margin-left: -15px;
+}
+
+li a {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.nav-links{
+    text-decoration:none ;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0 50px;
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color: #fe4650;
+}
+.main h1{
+    position: absolute;
+    color: #0f1923;
+    margin-left: 194px;
+    margin-top: -50px;
+    font-size: 80px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#N{
+    color: #fe4650;
+}
+table{     
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.text{
+    font-weight:bold;
+    color: #fe4650;
+    font-size: 20px;
+}
+td{
+    font-size: 15px;
+}
+.Fourth {
+    background-color:  rgba(7, 7, 7, 0.91);
+    width: 100%;
+    height: 123px;
+}
+.Fourth #a1{
+    text-decoration: none;
+    color: white;
+    margin-left: 500px;
+    margin-top: 50px;
+    position: absolute;
+}
+.Fourth #a1:hover{
+    text-decoration: underline;
+}
+.Fourth #a2:hover{
+    text-decoration: underline;
+}
+.Fourth #a2{
+    text-decoration: none;
+    color: white;
+    margin-left: 770px;
+    margin-top: 50px;
+    position: absolute;
+}
+.Fourth .liens {
+    text-align: center;
+}
+.Fifth {
+    background-color:  #ece8e1;
+    width: 100%;
+    height: 423px;
+}
+.Fifth .photos1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 662px;
+}
+.Fifth .photos2{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 655px;
+}
+.Fifth #paragraph1{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 400px;
+}
+.Fifth #paragraph2{
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 550px;
+}
+.end{
+    position: absolute;
+    width: 398px;
+    height: 102px;
+
+    margin-top: -140px;
+    margin-left: 540px;
+}
